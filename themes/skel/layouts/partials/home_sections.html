@@ -1,0 +1,13 @@
+{{ range $i, $page := .Paginator.Pages }}
+  {{ if $page.Params.frontpage }}
+    {{ if gt $i 0}}
+      <hr class="major" />
+    {{ end }}
+    {{ with $page }}
+      <h2>{{ .Title }}</h2>
+      <div class="row">
+        {{ .Content }}
+      </div>
+    {{ end }}
+  {{ end }}
+{{ end }}

@@ -1,0 +1,15 @@
+<nav id="nav">
+  <ul class="links">
+    {{range .Data.Pages}}
+      {{ if not .Params.frontpage }}
+        <li>
+          <a href="{{.Permalink}}">{{.Title}}</a>
+        </li>
+      {{end}}
+    {{end}}
+  </ul>
+  <!-- <ul class="actions vertical">
+    <li><a href="http://skel.io" class="button special fit">Download</a></li>
+    <li><a href="http://skel.io" class="button fit">Documentation</a></li>
+  </ul> -->
+</nav>

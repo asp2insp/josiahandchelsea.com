@@ -2,3 +2,19 @@ baseurl = "http://josiahandchelsea.com/"
 languageCode = "en-us"
 title = "Josiah and Chelsea are Getting Married!"
 theme = "skel"
+copyright = "Josiah Gaskin 2015. All rights reserved."
+
+[params]
+  banner = "Josiah and Chelsea are Getting Married!"
+  tagline = ""
+  name = "JosiahAndChelsea.com"
+
+[[params.actions]]
+  action = "/rsvp"
+  class = "special"
+  title = "RSVP"
+
+[[params.actions]]
+  action = "/contact"
+  class = "alt"
+  title = "Contact"
