@@ -2078,6 +2078,17 @@
 				width: 100%;
 			}
 
+   .tilt.left {
+		 transform:rotateZ(-12deg);
+		 margin-top: 10%;
+		 margin-bottom: 10%;
+	 }
+
+	 .tilt.right {
+		 transform:rotateZ(12deg);
+		 margin-top: 10%;
+		 margin-bottom: 10%;
+	 }
 /* List */
 
 	ol {
