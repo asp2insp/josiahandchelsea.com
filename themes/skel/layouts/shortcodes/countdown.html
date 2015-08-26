@@ -1,0 +1,9 @@
+<span id="countdown-span"></span>
+<script>
+countdown(
+    new Date({{ .until }}),
+    function(ts) {
+      document.getElementById('countdown-span').innerHTML = ts.toHTML("strong");
+    },
+    countdown.DAYS|countdown.HOURS|countdown.MINUTES|countdown.SECONDS);
+</script>

@@ -1,9 +1,10 @@
 <nav id="nav">
   <ul class="links">
-    {{range .Data.Pages}}
+    <li><a href="/">Home</a></li>
+    {{range .Site.Pages}}
       {{ if not .Params.frontpage }}
         <li>
-          <a href="{{.Permalink}}">{{.Title}}</a>
+          <a href="{{.Permalink}}">{{ title .Title }}</a>
         </li>
       {{end}}
     {{end}}

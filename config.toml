@@ -13,8 +13,3 @@ copyright = "Josiah Gaskin 2015. All rights reserved."
   action = "/rsvp"
   class = "special"
   title = "RSVP"
-
-[[params.actions]]
-  action = "/contact"
-  class = "alt"
-  title = "Contact"

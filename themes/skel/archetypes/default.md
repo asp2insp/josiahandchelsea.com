@@ -1,5 +1,6 @@
 +++
 title = ""
 description = ""
-Frontpage = false
+frontpage = false
+type = "page"
 +++

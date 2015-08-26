@@ -1,2 +1,17 @@
-<script src="js/skel.min.js"></script>
-<script src="js/main.js"></script>
+<script src="/js/skel.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/moment.min.js"></script>
+<script src="/js/countdown.min.js"></script>
+
+<script>
+$('*[data-countdown-until]').each(function(i, elem) {
+  var date = new Date(elem.dataset.countdownUntil);
+  var e = elem;
+  countdown(
+      date,
+      function(ts) {
+        e.innerHTML = ts.toHTML("strong");
+      },
+      countdown.DAYS|countdown.HOURS|countdown.MINUTES|countdown.SECONDS);
+});
+</script>
