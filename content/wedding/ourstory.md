@@ -21,21 +21,21 @@ June 3rd, 2014. June 6th, 2014. August 1st, 2015.
 ## SCENE 1
     (A dimly lit ballroom in the Mission district of San Francisco. Blues music plays. Women and men hug as the song finishes and move to switch partners)
 
-# CHELSEA
+### CHELSEA
     (Spins with her partner, then laughs as the dance finishes. She is wearing a red skirt.)
 Thank you so much! What was your name?
 
-# JOSIAH
+### JOSIAH
     (Sees Chelsea across the room, and begins to walk towards her)
 
-# CHELSEA
+### CHELSEA
     (Sees Josiah approaching and begins to walk towards him)
 
-# GUY 1, GIRL 1 IN UNISON
+### GUY 1, GIRL 1 IN UNISON
     (Extend a hand towards Chelsea, Josiah respectively)
 Would you like to dance?
 
-# JOSIAH, CHELSEA IN UNISON
+### JOSIAH, CHELSEA IN UNISON
 Oh, I was going... Yes, I mean, I would love to.
 
     (Couples dance as lights fade)
@@ -44,16 +44,16 @@ Oh, I was going... Yes, I mean, I would love to.
 ## Scene 2
     (A crowded ballroom in Redwood City. Tango and Blues music plays. Women and men hug, then separate as a song ends.)
 
-# CHELSEA
+### CHELSEA
     (Spins with her partner, then laughs as the dance finishes. She is wearing a red skirt.)
 Thank you so much! What was your name
 
-# JOSIAH
+### JOSIAH
     (Enters, stage left, sees Chelsea, and strides towards her)
 
-# CHELSEA
+### CHELSEA
     (Turns to waiting Guy 2)
 Hi! How are you this evening? Yes, I would love to dance!
 
-# JOSIAH
+### JOSIAH
 Darn.
