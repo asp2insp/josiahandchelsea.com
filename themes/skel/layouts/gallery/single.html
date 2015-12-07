@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<!-- skel-baseline v3.0.0 | (c) n33 | skel.io | MIT licensed -->
+<html>
+	<head>
+		<title>{{ title .Title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="/css/main.css" />
+		{{ partial "top_scripts.html" . }}
+	</head>
+	<body id="top">
+
+		<!-- Header -->
+    {{ partial "header.html" . }}
+
+		<!-- Nav -->
+			{{ partial "nav_links.html" . }}
+
+		<!-- Main -->
+			<div id="main" class="container">
+				<!-- Content -->
+        <div class="row">
+          <section class="12u$">
+            <h2 align=center>{{ .Title }}</h2>
+          </section>
+        </div>
+        <div class="row">
+            {{range $p := .Params.images}}
+                <p class="3u photo-thumb">
+                    <a href="{{ $p.src }}"><img src="{{ $p.thumb }}"></a>
+                </p>
+            {{ end }}
+        </div>
+			</div>
+
+		<!-- Footer -->
+			{{ partial "footer.html" . }}
+
+		<!-- Scripts -->
+			{{ partial "scripts.html" . }}
+
+	</body>
+</html>
