@@ -1,0 +1,10 @@
+<section class="4u">
+    {{ with .Get "name"}}
+    <p class="image">
+      <img class="headshot" src="/images/bridalparty/{{.}}.jpg">
+    </p>
+    <p>
+      {{.}}
+    </p>
+    {{ end }}
+</section>
