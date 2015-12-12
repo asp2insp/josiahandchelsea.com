@@ -10,6 +10,6 @@ copyright = "Josiah Gaskin 2015. All rights reserved."
   name = "JosiahAndChelsea.com"
 
 [[params.actions]]
-  action = "/rsvp"
+  action = "https://docs.google.com/forms/d/14LBR7qbNfYrak8HikXvWacJTlNMt4yDNjBkmCFTGEtE/viewform"
   class = "special"
   title = "RSVP"
